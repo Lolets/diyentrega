@@ -22,6 +22,7 @@
                          </p>
                          <p class="card-text"><small class="text-muted"><b>Código:</b> <?= $producto["ref"] ?></small></p>
                          <p class="card-text"><small class="text-muted"><b>Categoría:</b> <?= $producto["category"] ?></small></p>
+                         <p class="card-text"><small class="text-muted"><b>Subcategoría:</b> <?= $producto["subcategory"] ?></small></p>
                          <!-- <strong style="color: red"><?= $producto["precio"] ?></strong> -->
                      </div>
                      <a href="#" class="btn btn-newsletter"

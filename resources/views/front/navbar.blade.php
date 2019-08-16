@@ -26,6 +26,29 @@
           <a class="dropdown-item" href="/productos">Todos</a>
         </div>
       </li>
+      <!-- La magia -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Productos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdown">
+          <div class="btn-group dropright">
+            <a class="button" href="/productos/Caja">Cajas</a>
+            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropright</span>
+            </button>
+            <div class="dropdown-menu">
+              <a href="./liso">Liso</a>
+              <a href="./estampado">Estampado</a>
+            </div>
+          </div>
+
+          <a class="dropdown-item" href="/productos/Bolsa">Bolsas</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/productos">Todos</a>
+        </div>
+      </li>
+
       <li class="nav-item">
         <a class="nav-link" href="/faq">Preguntas frecuentes</a>
       </li>
